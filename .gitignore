@@ -1,0 +1,9 @@
+# session-snapshot layers — local only
+conversation/
+.save_and_ship/
+CONTINUE.md
+skills/
+.project/
+# deps
+node_modules/
+.DS_Store
