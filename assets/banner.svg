@@ -1,0 +1,49 @@
+<svg viewBox="0 0 1280 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="immaterial-art — seeded generative-art render pipeline with full provenance">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="0.55" stop-color="#101a2e"/>
+      <stop offset="1" stop-color="#1a1030"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8b84a"/>
+      <stop offset="1" stop-color="#f5d67b"/>
+    </linearGradient>
+    <linearGradient id="ribbon1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c2452f"/>
+      <stop offset="0.5" stop-color="#e8807a"/>
+      <stop offset="1" stop-color="#e7e2d8"/>
+    </linearGradient>
+    <linearGradient id="ribbon2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3d5a4f"/>
+      <stop offset="0.6" stop-color="#8aa893"/>
+      <stop offset="1" stop-color="#d8d2c2"/>
+    </linearGradient>
+    <linearGradient id="ribbon3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b8862f"/>
+      <stop offset="1" stop-color="#f0e6c8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="340" fill="url(#bg)"/>
+
+  <!-- flowing ribbon field: the engine's soul -->
+  <g opacity="0.85" fill="none" stroke-linecap="round">
+    <path d="M-20 300 C 180 240, 260 320, 430 265 S 720 300, 900 245 S 1180 280, 1300 235" stroke="url(#ribbon1)" stroke-width="26" opacity="0.9"/>
+    <path d="M-20 268 C 200 215, 300 285, 470 235 S 740 268, 920 215 S 1190 250, 1300 205" stroke="url(#ribbon2)" stroke-width="18" opacity="0.75"/>
+    <path d="M-20 322 C 160 275, 330 345, 520 292 S 800 330, 980 275 S 1210 305, 1300 268" stroke="url(#ribbon3)" stroke-width="12" opacity="0.6"/>
+    <path d="M-20 244 C 220 200, 340 255, 520 212 S 780 240, 960 195 S 1200 222, 1300 182" stroke="#5a6f8f" stroke-width="7" opacity="0.5"/>
+  </g>
+
+  <!-- seed glyph: hash → art -->
+  <g font-family="Courier, 'Courier New', monospace" fill="#5a6f8f" font-size="15" opacity="0.8">
+    <text x="72" y="66">0xf40bbe45…</text>
+    <text x="72" y="90">└─ fire, bone, blush · fluidity high</text>
+  </g>
+
+  <text x="640" y="152" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="url(#gold)" font-weight="bold" letter-spacing="6">IMMATERIAL ART</text>
+  <text x="640" y="188" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="21" fill="#b8c4d8">every frame traceable to the seed that made it</text>
+
+  <rect x="440" y="206" width="400" height="2" fill="url(#gold)" opacity="0.7"/>
+  <text x="640" y="230" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="13" fill="#8fa0b8" letter-spacing="3">5 COMMANDS · 3-LAYER SEED PROVENANCE · ~240 SEEDS/SEC MINED · METAL-GPU HEADLESS</text>
+</svg>
