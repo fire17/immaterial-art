@@ -11,6 +11,8 @@
 
 <i>b-roll that can always be regenerated — because every render carries the seed that made it.</i>
 
+<img width="100%" src="media/hero.gif" alt="live generation — flowing ribbon field rendered by this pipeline" />
+
 **[⚡ Quickstart](#-quickstart)** · **[🎬 Commands](#-the-five-commands)** · **[🧬 Provenance](#-every-file-knows-its-seed)** · **[🎯 Coherent shots](#-similar--coherent-shots-for-one-video)** · **[🔧 Gotchas](#-hard-won-gotchas-why-this-exists)**
 
 </div>
@@ -38,6 +40,17 @@ flowchart LR
     style A fill:#1a1030,stroke:#e8b84a,color:#f5d67b
     style E fill:#1a1030,stroke:#e8b84a,color:#f5d67b
 ```
+
+## 🖼 What it renders
+
+Six generations, six seeds — every one reproducible from the hash in its sidecar (all captured by this pipeline on an M3 Max):
+
+| | | |
+|---|---|---|
+| ![fire, bone, blush](media/pink-red.png) | ![gold, pale](media/yellow.png) | ![wine, bone](media/dense-red.png) |
+| ![green with frame](media/green-frame.png) | ![blue beige](media/blue-beige.png) | ![white and black](media/white-black.png) |
+
+🎬 **[48-second montage — 8 generations back-to-back](media/montage.mp4)** (the meshes flow continuously; each page load without a seed is a brand-new artwork).
 
 ## ⚡ Quickstart
 
